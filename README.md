@@ -17,16 +17,16 @@ The time taken for each question is recorded and included in the API request pay
 Final Score Screen
 After the last question, an API request is made to submit the responses.
 The final score is calculated in an interesting way and displayed.
-#Technologies Used
+# Technologies Used
 Frontend: React.js for building the user interface.
 API: Consumes RESTful APIs for quiz functionality.
 Optional: You may use Next.js for server-side rendering and API mocking.
-#How to Run the Project
+# How to Run the Project
 Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/quiz-web-app.git
+git clone https://github.com/Chakradhar-Malage/upraised-quiz-app.git
 Navigate into the project directory:
 
 bash
