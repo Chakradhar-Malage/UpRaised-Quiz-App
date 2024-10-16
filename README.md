@@ -1,7 +1,7 @@
 # UpRaised-Quiz-App
 This project is a quiz web application built using React that allows users to start a quiz, answer questions, and receive a final score. The app follows a RESTful design pattern for interacting with APIs, supporting features such as starting a quiz, submitting responses, and receiving quiz data.
 
-#Features
+# Features
 Allows users to start a new quiz.
 Presents a series of questions to the user, supports multiple choice answers.
 Displays the final score after all questions are answered.
@@ -26,7 +26,7 @@ Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/Chakradhar-Malage/upraised-quiz-app.git
+git clone https://github.com/Chakradhar-Malage/Upraised-Quiz-App.git
 Navigate into the project directory:
 
 bash
