@@ -25,24 +25,24 @@ Optional: You may use Next.js for server-side rendering and API mocking.
 Clone this repository:
 
 bash
-Copy code
+Copy code<br>
 git clone https://github.com/Chakradhar-Malage/Upraised-Quiz-App.git
 Navigate into the project directory:
 
 bash
-Copy code
+Copy code<br>
 cd quiz-web-app
 Install dependencies:
 
 bash
-Copy code
+Copy code<br>
 npm install
 Start the development server:
 
-bash
-Copy code
+
+Copy code<br>
 npm start
-Open the app in your browser at http://localhost:3000.
+Open the app in your browser at http://localhost:3000.<br>
 
 API Endpoints
 Start Quiz: POST /api/quiz/start
