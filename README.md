@@ -21,6 +21,8 @@ The final score is calculated in an interesting way and displayed.
 Frontend: React.js for building the user interface.
 API: Consumes RESTful APIs for quiz functionality.
 Optional: You may use Next.js for server-side rendering and API mocking.
+![Untitled design](https://github.com/user-attachments/assets/1219a045-e346-4ebb-80c6-61f016ba1ef0)
+
 # How to Run the Project
 Clone this repository:
 
