@@ -65,6 +65,75 @@ Copy code
 Deployment
 For demonstration purposes, the app can be deployed using platforms like Vercel or Netlify.
 
+# Installation using Docker
+## Getting Started
+
+Follow the steps below to set up your environment using Docker.
+
+### 1. Clone the Repository
+
+Clone the project repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/Upraised_Quiz_App.git
+cd Upraised_Quiz_App
+```
+
+### 2. Build the Docker Image
+
+In the project directory, run the following command to build the Docker image:
+
+```bash
+docker build -t upraised_quiz_app .
+```
+
+### 3. Run the Docker Container
+
+After building the image, you can run a container based on it:
+
+```bash
+docker run -d -p 8000:8000 upraised_quiz_app
+```
+
+This command runs the container in detached mode and maps port 8000 of the container to port 8000 on your host machine.
+
+### 4. Access the Application
+
+Open your web browser and go to [http://localhost:8000](http://localhost:8000) to access the Upraised Quiz App.
+
+### 5. Stop the Docker Container
+
+To stop the running container, first, find the container ID:
+
+```bash
+docker ps
+```
+
+Then, stop the container using the ID:
+
+```bash
+docker stop <container_id>
+```
+
+### 6. Remove the Docker Container (Optional)
+
+If you want to remove the container after stopping it, use the following command:
+
+```bash
+docker rm <container_id>
+```
+
+## Troubleshooting
+
+If you encounter issues, ensure Docker is running and you have sufficient permissions to run Docker commands. Check the Docker logs for any errors:
+
+```bash
+docker logs <container_id>
+```
+
+## Additional Notes
+
+For a more advanced setup with multiple services, consider using Docker Compose. Refer to the [Docker Compose documentation](https://docs.docker.com/compose/) for further details.
 Best Practices
 Clean and maintainable code with comments explaining key sections.
 Follows RESTful principles for handling API requests and responses.
